@@ -5,7 +5,7 @@ Memory Limit: 65536K
 
 ## Description
 
-You are given scales for weighing loads. On the left side lies a single stone of known weight W<2N. You own a set of N different weights, weighing 1, 2, 4 ... 2(N-1) units of mass respectively. Determine how many possible ways there are of placing some weights on the sides of the scales; so as to balance them (put them in a state of equilibrium). Output this value modulo a small integer D.
+You are given scales for weighing loads. On the left side lies a single stone of known weight W<2<sup>N</sup>. You own a set of N different weights, weighing 1, 2, 4 ... 2<sup>(N-1)</sup> units of mass respectively. Determine how many possible ways there are of placing some weights on the sides of the scales; so as to balance them (put them in a state of equilibrium). Output this value modulo a small integer D.
 
 ## Input
 
