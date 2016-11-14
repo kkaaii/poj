@@ -4,15 +4,15 @@
 #define N   1000000
 
 char w[N + 1];
-int n;
-int d;
+int n;  /* the number of weights */
+int d;  /* the modulus */
 
 int dfs(void);
 
 int main(void)
 {
     int cases;
-    int b;
+    int b;  /* the length of the binary representation of number W */
     
     scanf("%d", &cases);
     while (cases--) {
