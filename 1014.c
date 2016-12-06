@@ -34,12 +34,12 @@ int main(void)
     return 0;
 }
 
-int v;
 int dp[N * M + 1];
 
 int dfs(void)
 {
     int i, j, k;
+    int v = 0;
 
     if (sum & 1) {
         return 0;
@@ -48,7 +48,6 @@ int dfs(void)
     memset(dp, 0, sizeof (dp));
     dp[0] = 1;
     sum /= 2;
-    v = 0;
 
     for (i = 1; i <= M; ++i) {
         if (m[i] > 0 && !dp[i]) {
@@ -71,5 +70,5 @@ int dfs(void)
             v = sum;
     }
 
-    return dp[v];
+    return dp[sum];
 }
